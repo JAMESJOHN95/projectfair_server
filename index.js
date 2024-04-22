@@ -27,6 +27,9 @@ pfserver.listen(PORT,()=>{
     console.log(`Project Fair Server Started At ${PORT} `);
 })
 
+pfserver.get("/",(req,res)=>{
+    res.status(200).send(<h1 style="color:green">project fair started and waiting for client request !!!</h1>)
+})
 
 
 
