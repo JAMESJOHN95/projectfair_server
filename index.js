@@ -28,7 +28,7 @@ pfserver.listen(PORT,()=>{
 })
 
 pfserver.get("/",(req,res)=>{
-    res.status(200).send(<h1 style="color:green">project fair started and waiting for client request !!!</h1>)
+    res.status(200).send(`<h1 style="color:green">project fair started and waiting for client request !!!</h1>`)
 })
 
 
